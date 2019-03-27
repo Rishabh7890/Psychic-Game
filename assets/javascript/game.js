@@ -5,9 +5,9 @@ var computerPick ;
 var guessesLeft = 10;
 var yourGuesses = [];
 var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-//generate computerPick by randomly choosing a value in the letters array.
+//generate randomIndex by getting random decimal between 0 and 1 from math.random and multiply by the length of the letters array. Math.floor will round the decimal point down.
 var randomIndex = Math.floor(Math.random() * letters.length);
-// computer starts game by choosing random value from the letters array and assigning it to the variable computerPick. console.log(computerPick) to see which letter computer chose in the console.
+// computer starts game by function, choosing random value from the letters array and assigning it to the variable computerPick. console.log(computerPick) to see which letter computer chose in the console.
 function randomGuess() {
   computerPick = letters[Math.floor(Math.random() * letters.length)];
   console.log(computerPick);
