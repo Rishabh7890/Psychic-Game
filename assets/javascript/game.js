@@ -1,7 +1,7 @@
 //create variables for wins, losses, computer's pick with no current value, guesses left for user, array of your guesses for the current game, and letters of alphabet.
 var wins = 0;
 var losses = 0;
-var computerPick = computerPick;
+var computerPick ;
 var guessesLeft = 10;
 var yourGuesses = [];
 var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
