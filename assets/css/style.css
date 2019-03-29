@@ -1,8 +1,8 @@
 body {
   font-weight: bold;
   text-align: center;
-  background-color: #e0b2ea;
-  color: white;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(214,156,248,1));
+  color: rgb(103, 1, 143);
   font-family: 'Noto Sans SC', sans-serif;
 }
 
@@ -10,3 +10,10 @@ h1 {
   font-family: 'Gloria Hallelujah', cursive;
   margin-top: 30%;
 }
+
+.roundedImg {
+  border-radius: 30px;
+}
+
+
+
